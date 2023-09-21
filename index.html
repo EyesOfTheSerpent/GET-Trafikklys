@@ -22,13 +22,13 @@
         </div>
         <div id="buttonContainer">
             <div>
-                <button class="buttonDecor" onclick="changeLight('#b71b1b', '', '')">Stop</button>
-                <button class="buttonDecor" onclick="changeLight('#b71b1b', '#cdcd1f', '')">Ready</button>
-                <button class="buttonDecor" onclick="changeLight('', '', '#34cd1f')">Go</button>
+                <button class="buttonDecor" onclick="light.changeLight('#b71b1b', '', '')">Stop</button>
+                <button class="buttonDecor" onclick="light.changeLight('#b71b1b', '#cdcd1f', '')">Ready</button>
+                <button class="buttonDecor" onclick="light.changeLight('', '', '#34cd1f')">Go</button>
             </div>
             <div>
-                <button class="autoButtons" onclick="autoLight()">Automated Light</button>
-                <button class="autoButtons" onclick="stopLight()">Stop Light</button>
+                <button class="autoButtons" onclick="light.autoLight()">Automated Light</button>
+                <button class="autoButtons" onclick="light.stopLight()">Stop Light</button>
             </div>
         </div>
     </div>
